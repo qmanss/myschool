@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця лідерів</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Таблиця лідерів</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Місце</th>
+                    <th>Клас</th>
+                    <th>Бали</th>
+                    <th>Деталі</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard">
+                <!-- Рядки таблиці будуть динамічно оновлюватися через JavaScript -->
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Модальне вікно для деталей -->
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Деталі балів</h2>
+            <ul id="detailsList">
+                <!-- Деталі додаватимуться тут -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
